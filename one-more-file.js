@@ -1,4 +1,4 @@
-function* myGen(a, b) {  // Noncompliant
+function* myGen(a, b, c) {  // Noncompliant
   let answer = 5;
   answer += a * b;
 }
