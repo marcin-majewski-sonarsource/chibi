@@ -1,5 +1,5 @@
 function* myGen(a, b, c) {  // Noncompliant
-  let answer = 5;
+  let answer = 15;
   answer += a * b;
 }
 function* myGen(a, b) {  // Noncompliant
