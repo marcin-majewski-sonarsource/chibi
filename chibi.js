@@ -1,3 +1,4 @@
+console.log('bla bla');
 /*!chibi 3.0.9, Copyright 2012-2017 Kyle Barrow, released under MIT license */
 (function () {
 //	'use strict';
