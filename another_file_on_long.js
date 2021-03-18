@@ -1,5 +1,5 @@
 switch a {
-  case 1,2:  // Noncompliant; only 2 is ever handled by this case
+  case 7777777,2:  // Noncompliant; only 2 is ever handled by this case
     doTheThing(a);
   case 3 || 4: // Noncompliant; only '3' is handled
     doThatThing(a);
