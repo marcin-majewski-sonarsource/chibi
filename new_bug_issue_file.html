@@ -1,0 +1,9 @@
+<input type="text" name="firstname" />               <!-- Non-Compliant - no id -->
+
+<input type="text" name="lastname" id="lastname" />  <!-- Non-Compliant - no matching label for "lastname" -->
+
+<label for="address">Address</label>
+<input type="text" name="address" id="address" />    <!-- Compliant -->
+
+<input type="hidden" name="time" value="...">        <!-- Compliant - "hidden" type is excluded -->
+<input type="submit" value="Send" />       
