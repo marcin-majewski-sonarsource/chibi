@@ -12,7 +12,10 @@ function* myGen(a, b) {  // Noncompliant
 }
 function* myGen(a, b) {  // Noncompliant
   let answer = 0;
-  answer += a * b;
+  while(answer < 42){
+    answer+= a * b;
+    yield answer;	  
+  }
 }
 function* myGen(a, b) {  // Noncompliant
   let answer = 0;
